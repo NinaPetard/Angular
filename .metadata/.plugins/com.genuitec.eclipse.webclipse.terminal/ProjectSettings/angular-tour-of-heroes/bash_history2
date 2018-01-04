@@ -8,3 +8,5 @@ ng generate component dashboard
 npm install angular-in-memory-web-api --save
 ng serve
 ng g service in-memory-data 
+ng build
+ng build --prod
