@@ -1,0 +1,227 @@
+!SESSION 2018-01-03 15:29:37.789 -----------------------------------------------
+eclipse.buildId=17.0.0.CI-AI-010
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product com.genuitec.eclipse.modernweb.angular2.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.genuitec.eclipse.modernweb.angular2.ui.product
+
+!ENTRY org.eclipse.ui 2 0 2018-01-03 15:52:58.029
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-01-03 15:52:58.029
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-01-03 15:52:59.338
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-01-03 15:52:59.400
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-03 15:53:02.037
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adminl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-03 15:53:06.851
+!MESSAGE Metadata for this software package has been updated and is being received from the update server
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-03 15:53:06.862
+!MESSAGE Server has validated the local update metadata; no new metadata is necessary at this time
+!SESSION 2018-01-04 10:20:22.264 -----------------------------------------------
+eclipse.buildId=17.0.0.CI-AI-010
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product com.genuitec.eclipse.modernweb.angular2.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.genuitec.eclipse.modernweb.angular2.ui.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-04 10:24:45.799
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adminl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-04 10:27:55.525
+!MESSAGE Metadata for this software package has been updated and is being received from the update server
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-04 10:27:55.532
+!MESSAGE Server has validated the local update metadata; no new metadata is necessary at this time
+
+!ENTRY org.eclipse.jface 2 0 2018-01-04 10:32:29.746
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-04 10:32:29.746
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,Copy,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fb268b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@555b3ec9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-04 10:32:29.746
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.maximize,Maximize Active View or Editor,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b7f8fd5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f308c09,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-01-04 12:24:20.948
+!MESSAGE Error: Dynamic fixes are not supported for multiple files
+!STACK 0
+com.genuitec.eclipse.typescript.services.internal.Bridge$BridgeException: Error: Dynamic fixes are not supported for multiple files
+	at <static>.<anonymous>(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:60:23)
+	at Array.forEach(native)
+	at <static>.<anonymous>(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:58:59)
+	at Array.forEach(native)
+	at TSCodeFixDynamicProvider.createDynamicQuickFix(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:58:15)
+	at TSQuickFixProvider.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:33:33)
+	at LanguageServiceHost.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageServiceHost.js:224:59)
+	at LanguageServiceProvider.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageServiceProvider.js:31:21)
+	at LanguageEndpoint.prepareDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageEndpoint.js:625:43)
+	at Main.processRequest(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\main.js:91:33)
+	at <js-bridge.call>(Unknown Source)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.processRequest(Bridge.java:234)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.call(Bridge.java:161)
+	at com.genuitec.eclipse.typescript.services.language.LanguageEndpoint.prepareDynamicQuickFixes(LanguageEndpoint.java:342)
+	at com.genuitec.eclipse.typescript.text.FileLanguageService.prepareDynamicQuickFixes(FileLanguageService.java:320)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.processAnnotation(TypeScriptQuickAssistProcessor.java:207)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.computeQuickAssistProposals(TypeScriptQuickAssistProcessor.java:97)
+	at com.genuitec.eclipse.typescript.text.AbstractTextHover.getHoverInfo2(AbstractTextHover.java:122)
+	at com.genuitec.eclipse.typescript.text.TextHover.getHoverInfo2(TextHover.java:74)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-01-04 12:24:20.955
+!MESSAGE Dynamic quick fix of type dynamic:ts:2551:ts-codefix has not been provided by TypeScript bridge.
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-01-04 12:24:28.002
+!MESSAGE Dynamic quick fix of type dynamic:ts:2551:ts-codefix has not been provided by TypeScript bridge.
+
+!ENTRY org.eclipse.jface 4 0 2018-01-04 14:30:06.244
+!MESSAGE The command ("com.palantir.typescript.text.typeScriptEditor.correction.assist.proposals") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.ui.internal.PluginActionContributionItem.isVisible(PluginActionContributionItem.java:142)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.access$3(MenuManagerRenderer.java:1180)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer$3.handleEvent(MenuManagerRenderer.java:247)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:345)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:189)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:232)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:471)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-01-04 14:53:29.462
+!MESSAGE Error: Dynamic fixes are not supported for multiple files
+!STACK 0
+com.genuitec.eclipse.typescript.services.internal.Bridge$BridgeException: Error: Dynamic fixes are not supported for multiple files
+	at <static>.<anonymous>(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:60:23)
+	at Array.forEach(native)
+	at <static>.<anonymous>(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:58:59)
+	at Array.forEach(native)
+	at TSCodeFixDynamicProvider.createDynamicQuickFix(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:58:15)
+	at TSQuickFixProvider.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\quickfix\fixes.js:33:33)
+	at LanguageServiceHost.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageServiceHost.js:224:59)
+	at LanguageServiceProvider.createDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageServiceProvider.js:31:21)
+	at LanguageEndpoint.prepareDynamicQuickFixes(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\language\languageEndpoint.js:625:43)
+	at Main.processRequest(C:\Users\adminl\AppData\Local\Angular IDE 2017 CI\plugins\com.genuitec.eclipse.typescript_2.5.3.201712182257\bin\bridge\main.js:91:33)
+	at <js-bridge.call>(Unknown Source)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.processRequest(Bridge.java:234)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.call(Bridge.java:161)
+	at com.genuitec.eclipse.typescript.services.language.LanguageEndpoint.prepareDynamicQuickFixes(LanguageEndpoint.java:342)
+	at com.genuitec.eclipse.typescript.text.FileLanguageService.prepareDynamicQuickFixes(FileLanguageService.java:320)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.processAnnotation(TypeScriptQuickAssistProcessor.java:207)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.computeQuickAssistProposals(TypeScriptQuickAssistProcessor.java:97)
+	at com.genuitec.eclipse.typescript.text.AbstractTextHover.getHoverInfo2(AbstractTextHover.java:122)
+	at com.genuitec.eclipse.typescript.text.TextHover.getHoverInfo2(TextHover.java:74)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-01-04 14:53:29.470
+!MESSAGE Dynamic quick fix of type dynamic:ts:2339:ts-codefix has not been provided by TypeScript bridge.
