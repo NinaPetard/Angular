@@ -1,4 +1,6 @@
 
-<ul class="champions">
-<li *ngFor="let champion of champions">{{champion.name}} </li>
-</ul>
+
+<table>
+  <tr ><td>Nom du champion </td> <td>Score de maîtrise</td></tr>
+<tr *ngFor="let champion of champions"><td>{{champion.name}} </td> <td>{{champion.mastery}}</td></tr>
+</table>
