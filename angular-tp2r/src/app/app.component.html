@@ -1,0 +1,19 @@
+<div class="textclair">{{title}}</div>
+
+<div  class="wellclair">
+
+  <table>
+    <tr >  <td> image</td>
+      <td>Nom du champion </td>
+      <td>Score de maîtrise</td>
+    </tr>
+  <tr *ngFor='let item of champlist | keys'>
+
+    <td>  <img src='http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/{{item.id}}.png'> </td>
+    <td> {{item.key}} </td>
+    <td></td>
+
+  </tr>
+  </table>
+</div>
+<router-outlet></router-outlet>

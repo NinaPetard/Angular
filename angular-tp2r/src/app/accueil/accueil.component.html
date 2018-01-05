@@ -1,0 +1,22 @@
+
+<div class="container-fluid">
+		<div class="row">
+				<div class="wellclair">
+<table>
+  <tr >  <td> image</td>
+    <td>Nom du champion </td>
+    <td>Score de maîtrise</td>
+  </tr>
+<tr *ngFor="let champion of champions"
+routerLink="/stats/{{champion.id}}">
+
+  <td>  <img src="{{champion.image}}"> </td>
+  <td>{{champion.name}} </td>
+  <td>{{champion.mastery}}</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+</div>
